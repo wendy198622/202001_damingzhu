@@ -1,0 +1,19 @@
+$primary: #004567;
+$secondary: #ffffff;
+
+
+%transition { transition: all .3s ease;}
+
+@mixin pd($padding) {
+    padding: $padding;
+}
+
+@mixin mg($margin) {
+    margin: $margin;
+}
+
+@mixin bd($border-width,$border-style,$border-color) {
+    border-width: $border-width;
+    border-style: $border-style;
+    border-color: $border-color;
+}
